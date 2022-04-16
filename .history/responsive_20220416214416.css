@@ -135,6 +135,13 @@
     .hide-on-mobile {
         display: none !important;
     }
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
     nav {
         display: none;
     }
@@ -194,7 +201,7 @@
         max-width: 14%;
     }
     .services .content .servicesBx h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
     .product.hfull {
         padding: 50px 0 55px 0;

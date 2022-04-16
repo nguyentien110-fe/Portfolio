@@ -135,6 +135,13 @@
     .hide-on-mobile {
         display: none !important;
     }
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
     nav {
         display: none;
     }

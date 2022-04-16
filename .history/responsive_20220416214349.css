@@ -135,6 +135,13 @@
     .hide-on-mobile {
         display: none !important;
     }
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
     nav {
         display: none;
     }
@@ -188,7 +195,7 @@
     .services .content .servicesBx {
         margin: 6px 10px;
         padding: 14px 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     .services .content .servicesBx img {
         max-width: 14%;

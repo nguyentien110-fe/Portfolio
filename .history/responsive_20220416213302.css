@@ -135,6 +135,13 @@
     .hide-on-mobile {
         display: none !important;
     }
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
     nav {
         display: none;
     }
@@ -186,12 +193,12 @@
         margin: 20px 0 0 0;
     }
     .services .content .servicesBx {
-        margin: 6px 10px;
+        margin: 10px;
         padding: 14px 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     .services .content .servicesBx img {
-        max-width: 14%;
+        max-width: 60px;
     }
     .services .content .servicesBx h2 {
         font-size: 16px;
@@ -274,12 +281,7 @@
 
 @media (max-width: 415px) {
     .services .content {
-        overflow-y: hidden;
-        width: calc(100% - 20px);
-        height: calc(100% - 155px);
+        height: calc(100% - 200px);
         padding-right: 0;
-    }
-    .servicesBx {
-        overflow-y: hidden;
     }
 }

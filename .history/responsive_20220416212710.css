@@ -42,7 +42,7 @@
         margin: 30px 0 0 60px;
     }
     .services .content {
-        width: calc(100% + 50px);
+        width: 500px;
     }
     .services .heading {
         margin-top: 100px;
@@ -80,9 +80,6 @@
     .formBx,
     .contact .heading h2 {
         margin-left: 0;
-    }
-    .contactInfoBx h4 {
-        font-size: 16px;
     }
     .formBx h3 {
         margin: 10px 0;
@@ -135,6 +132,13 @@
     .hide-on-mobile {
         display: none !important;
     }
+    #main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    #toggle {
+        display: block;
+    }
     nav {
         display: none;
     }
@@ -170,7 +174,6 @@
         box-shadow: 0 0 10px #afafaf;
     }
     .services .content {
-        width: calc(100% - 50px);
         padding-right: 40px;
     }
     .services .heading {
@@ -186,12 +189,12 @@
         margin: 20px 0 0 0;
     }
     .services .content .servicesBx {
-        margin: 6px 10px;
+        margin: 10px;
         padding: 14px 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     .services .content .servicesBx img {
-        max-width: 14%;
+        max-width: 60px;
     }
     .services .content .servicesBx h2 {
         font-size: 16px;
@@ -274,12 +277,6 @@
 
 @media (max-width: 415px) {
     .services .content {
-        overflow-y: hidden;
-        width: calc(100% - 20px);
-        height: calc(100% - 155px);
         padding-right: 0;
-    }
-    .servicesBx {
-        overflow-y: hidden;
     }
 }

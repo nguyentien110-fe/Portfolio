@@ -135,6 +135,9 @@
     .hide-on-mobile {
         display: none !important;
     }
+    body {
+        overflow-x: hidden !important;
+    }
     nav {
         display: none;
     }
